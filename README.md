@@ -1,13 +1,12 @@
 # Machine Learning Engineer Nanodegree
 ## Specializations
-## Project: Capstone Proposal and Capstone Project
+## Project: Predicting Liver Disease from data
 
-**Note**
 
-The Capstone is a two-staged project. The first is the proposal component, where you can receive valuable feedback about your project idea, design, and proposed solution. This must be completed prior to your implementation and submitting for the capstone project. 
+**Problem Statement**
+Given a dataset containing various attributes of 583 Indian patients, define a classification algorithm which can identify whether a person is suffering from liver disease or not.
 
-You can find the [capstone proposal rubric here](https://review.udacity.com/#!/rubrics/410/view), and the [capstone project rubric here](https://review.udacity.com/#!/rubrics/108/view). Please ensure that you are following directions correctly when submitting these two stages which encapsulate your capstone.
-
-You will find an `open_projects` folder in these files. This will be where pre-curated capstone projects are available, should you choose to work on a project already partially designed for you. 
-
-Please email [machine-support@udacity.com](mailto:machine-support@udacity.com) if you have any questions.
+**Solution Statement**
+To solve this problem, I will be using one or more classification algorithms covered in the udacity MLND. I will be trying out Logistic Regression, Support Vector Machine, knearest neighbours and one ensemble method.
+Different combinations of hyperparameters for individual algorithms , like kernel, degree and C for SVM and weights, n_neighbours and algorithms for k-Nearest Neighbours will be tried across the training sets. Depending on their respective performances on the
+cross-validation sets, the best algorithm with appropriate hyperparameter tuning will be finalised as the solution.
